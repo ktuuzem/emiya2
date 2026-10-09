@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2026-10-07T11:34:30.106840",
+  "datasetName": "GOCLAB_Moldova_483",
+  "algorithm": "Random Forest (Optimizasyonlu + Sınıf Dengeleme)",
+  "testSizeRatio": 0.2,
+  "totalParticipants": 483,
+  "testCount": 97,
+  "accuracy": 0.6701,
+  "f1Score": 0.6706,
+  "precision": 0.6712,
+  "targetName": "goc_niyeti_duzeyi",
+  "baselineAccuracy": 0.4639,
+  "classes": [
+    "Düşük",
+    "Orta",
+    "Yüksek"
+  ],
+  "featureImportances": [
+    {
+      "key": "score_aile_sosyal",
+      "label": "Sosyal Ağ Skoru",
+      "importance": 26.2
+    },
+    {
+      "key": "score_ekonomik_istihdam",
+      "label": "Ekonomik / İstihdam Skoru",
+      "importance": 12.5
+    },
+    {
+      "key": "score_psikolojik",
+      "label": "Göç Kaygısı Skoru",
+      "importance": 11.4
+    },
+    {
+      "key": "score_sosyo_politik",
+      "label": "Sosyo-Politik Skoru",
+      "importance": 8.7
+    },
+    {
+      "key": "score_egitim",
+      "label": "Eğitim ve Gelişim Skoru",
+      "importance": 8.1
+    },
+    {
+      "key": "score_kulturel",
+      "label": "Kültürel / Dini Uyum Skoru",
+      "importance": 6.0
+    },
+    {
+      "key": "gitmek_istedigi_ulke",
+      "label": "Hedef Ülke",
+      "importance": 6.0
+    },
+    {
+      "key": "score_cevresel",
+      "label": "Çevresel Skoru",
+      "importance": 5.2
+    },
+    {
+      "key": "egitim_level",
+      "label": "Eğitim Durumu",
+      "importance": 3.2
+    },
+    {
+      "key": "gelir",
+      "label": "Gelir Düzeyi",
+      "importance": 2.2
+    },
+    {
+      "key": "medeni_durum",
+      "label": "Medeni Durum",
+      "importance": 2.1
+    },
+    {
+      "key": "istiftam",
+      "label": "İstihdam Durumu",
+      "importance": 1.9
+    },
+    {
+      "key": "dil_sayisi",
+      "label": "Bilinen Yabancı Dil Sayısı",
+      "importance": 1.9
+    },
+    {
+      "key": "cinsiyet",
+      "label": "Cinsiyet",
+      "importance": 1.2
+    },
+    {
+      "key": "yurt_disi_yasayan_aile_durumu",
+      "label": "Yurt Dışında Aile",
+      "importance": 1.2
+    },
+    {
+      "key": "yas_grubu",
+      "label": "Yaş Grubu",
+      "importance": 1.2
+    },
+    {
+      "key": "yurt_disi_bulunma_durumu",
+      "label": "Yurt Dışı Deneyimi",
+      "importance": 1.0
+    }
+  ],
+  "topFeatures": [
+    "Sosyal Ağ Skoru",
+    "Ekonomik / İstihdam Skoru",
+    "Göç Kaygısı Skoru"
+  ],
+  "confusionMatrix": [
+    [
+      12,
+      8,
+      0
+    ],
+    [
+      6,
+      30,
+      9
+    ],
+    [
+      3,
+      6,
+      23
+    ]
+  ]
+}

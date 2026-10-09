@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-10-02T11:19:25.755374",
+  "datasetName": "GOCLAB_Anket_890",
+  "algorithm": "Random Forest (Optimizasyonlu + Sınıf Dengeleme)",
+  "testSizeRatio": 0.2,
+  "totalParticipants": 890,
+  "testCount": 178,
+  "accuracy": 0.6742,
+  "f1Score": 0.6764,
+  "precision": 0.6807,
+  "targetName": "goc_niyeti_duzeyi",
+  "baselineAccuracy": 0.427,
+  "classes": [
+    "Düşük",
+    "Orta",
+    "Yüksek"
+  ],
+  "featureImportances": [
+    {
+      "key": "score_aile_sosyal",
+      "label": "Sosyal Ağ Skoru",
+      "importance": 21.7
+    },
+    {
+      "key": "score_ekonomik_istihdam",
+      "label": "Ekonomik / İstihdam Skoru",
+      "importance": 15.4
+    },
+    {
+      "key": "score_egitim",
+      "label": "Eğitim ve Gelişim Skoru",
+      "importance": 8.3
+    },
+    {
+      "key": "score_sosyo_politik",
+      "label": "Sosyo-Politik Skoru",
+      "importance": 7.8
+    },
+    {
+      "key": "hedef_ulke",
+      "label": "Hedef Ülke",
+      "importance": 5.7
+    },
+    {
+      "key": "score_psikolojik",
+      "label": "Göç Kaygısı Skoru",
+      "importance": 5.5
+    },
+    {
+      "key": "score_kulturel",
+      "label": "Kültürel / Dini Uyum Skoru",
+      "importance": 5.0
+    },
+    {
+      "key": "dogum_yeri",
+      "label": "Doğum Yeri",
+      "importance": 4.8
+    },
+    {
+      "key": "score_cevresel",
+      "label": "Çevresel Skoru",
+      "importance": 3.6
+    },
+    {
+      "key": "gelir_duzeyi",
+      "label": "Gelir Düzeyi",
+      "importance": 2.9
+    },
+    {
+      "key": "yas_grubu",
+      "label": "Yaş Grubu",
+      "importance": 2.7
+    },
+    {
+      "key": "ingilizce_duzeyi",
+      "label": "İng. Seviyesi",
+      "importance": 2.6
+    },
+    {
+      "key": "egitim_seviyesi",
+      "label": "Eğitim Durumu",
+      "importance": 2.3
+    },
+    {
+      "key": "sektor",
+      "label": "Sektör",
+      "importance": 1.9
+    },
+    {
+      "key": "medeni_durum",
+      "label": "Medeni Durum",
+      "importance": 1.8
+    },
+    {
+      "key": "istihdam_durumu",
+      "label": "İstihdam Durumu",
+      "importance": 1.7
+    },
+    {
+      "key": "cinsiyet",
+      "label": "Cinsiyet",
+      "importance": 1.6
+    },
+    {
+      "key": "mevcut_ikamet_yeri",
+      "label": "İkamet Bölgesi",
+      "importance": 1.5
+    },
+    {
+      "key": "aile_yurtdisi",
+      "label": "Yurt Dışında Aile",
+      "importance": 1.2
+    },
+    {
+      "key": "yabanci_dil_ingilizce",
+      "label": "İngilizce Bilgisi",
+      "importance": 0.9
+    },
+    {
+      "key": "yabanci_dil_almanca",
+      "label": "Almanca Bilgisi",
+      "importance": 0.5
+    },
+    {
+      "key": "onceki_yurtdisi",
+      "label": "Yurt Dışı Deneyimi",
+      "importance": 0.4
+    },
+    {
+      "key": "yabanci_dil_arapca",
+      "label": "Arapça Bilgisi",
+      "importance": 0.2
+    },
+    {
+      "key": "yabanci_dil_rusca",
+      "label": "Rusça Bilgisi",
+      "importance": 0.1
+    },
+    {
+      "key": "yabanci_dil_fransizca",
+      "label": "Fransızca Bilgisi",
+      "importance": 0.1
+    }
+  ],
+  "topFeatures": [
+    "Sosyal Ağ Skoru",
+    "Ekonomik / İstihdam Skoru",
+    "Eğitim ve Gelişim Skoru"
+  ],
+  "confusionMatrix": [
+    [
+      17,
+      8,
+      2
+    ],
+    [
+      12,
+      49,
+      14
+    ],
+    [
+      2,
+      20,
+      54
+    ]
+  ]
+}

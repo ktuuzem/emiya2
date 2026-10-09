@@ -1,0 +1,19 @@
+# Bagimliliklar
+node_modules/
+
+# Ortam degiskenleri - GERCEK SIFRE VE ANAHTARLARI ICERIR, ASLA COMMIT ETMEYIN
+.env
+.env.local
+.env.*.local
+
+# Derleme ciktilari
+frontend/dist/
+
+# Loglar
+*.log
+backend/backend-server.log
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db

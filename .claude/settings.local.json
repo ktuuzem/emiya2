@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm ls tailwindcss)",
+      "PowerShell(npm run build)"
+    ]
+  }
+}

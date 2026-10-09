@@ -1,0 +1,96 @@
+{
+  "generatedAt": "2026-10-02T21:29:15.154118",
+  "algorithm": "KMeans (pooled TR+MD, sample_weight ile ornek dengesizligi kontrolu)",
+  "nClusters": 5,
+  "randomState": 42,
+  "silhouetteScore": 0.1537,
+  "participantCountTr": 890,
+  "participantCountMd": 483,
+  "weightMd": 1.8427,
+  "titles": {
+    "P1": "Eğitim Odaklı, Düşük Kaygılı Gençler",
+    "P2": "Tüm Faktörlerde Yüksek Düzeyli Gençler",
+    "P3": "Çevresel Kaygısı Düşük Gençler",
+    "P4": "Sosyal Bağı Zayıf, Çevresel Kaygısı Yüksek Gençler",
+    "P5": "Göçe Mesafeli Gençler"
+  },
+  "centroids": {
+    "P1": {
+      "ekonomik_istihdam": 72.1412,
+      "egitim": 90.2726,
+      "aile_sosyal": 62.6479,
+      "kulturel": 45.6963,
+      "sosyo_politik": 80.507,
+      "cevresel": 72.6853,
+      "psikolojik": 36.0604
+    },
+    "P2": {
+      "ekonomik_istihdam": 79.7159,
+      "egitim": 85.5704,
+      "aile_sosyal": 69.3418,
+      "kulturel": 79.0825,
+      "sosyo_politik": 87.3371,
+      "cevresel": 84.5896,
+      "psikolojik": 74.7923
+    },
+    "P3": {
+      "ekonomik_istihdam": 64.9771,
+      "egitim": 74.496,
+      "aile_sosyal": 55.7763,
+      "kulturel": 65.6812,
+      "sosyo_politik": 67.088,
+      "cevresel": 40.9878,
+      "psikolojik": 58.7399
+    },
+    "P4": {
+      "ekonomik_istihdam": 60.3156,
+      "egitim": 67.8186,
+      "aile_sosyal": 32.3847,
+      "kulturel": 63.939,
+      "sosyo_politik": 71.17,
+      "cevresel": 77.0884,
+      "psikolojik": 58.3475
+    },
+    "P5": {
+      "ekonomik_istihdam": 46.4106,
+      "egitim": 53.6278,
+      "aile_sosyal": 22.6026,
+      "kulturel": 49.3775,
+      "sosyo_politik": 47.2039,
+      "cevresel": 33.8585,
+      "psikolojik": 35.0276
+    }
+  },
+  "trainingSummary": {
+    "P1": {
+      "n": 225,
+      "tr": 187,
+      "md": 38,
+      "gocNiyetiOrtalama": 74.48
+    },
+    "P2": {
+      "n": 322,
+      "tr": 241,
+      "md": 81,
+      "gocNiyetiOrtalama": 69.81
+    },
+    "P3": {
+      "n": 306,
+      "tr": 143,
+      "md": 163,
+      "gocNiyetiOrtalama": 60.51
+    },
+    "P4": {
+      "n": 320,
+      "tr": 222,
+      "md": 98,
+      "gocNiyetiOrtalama": 43.52
+    },
+    "P5": {
+      "n": 200,
+      "tr": 97,
+      "md": 103,
+      "gocNiyetiOrtalama": 31.5
+    }
+  }
+}

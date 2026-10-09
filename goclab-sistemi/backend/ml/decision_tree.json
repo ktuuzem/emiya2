@@ -1,0 +1,146 @@
+{
+  "generatedAt": "2026-10-02T11:19:28.395118",
+  "datasetName": "GOCLAB_Anket_890",
+  "algorithm": "DecisionTreeClassifier",
+  "maxDepth": 3,
+  "testSizeRatio": 0.2,
+  "totalParticipants": 890,
+  "testCount": 178,
+  "accuracy": 0.6742,
+  "f1Score": 0.6758,
+  "precision": 0.7016,
+  "classes": [
+    "K1",
+    "K2",
+    "K3",
+    "K4",
+    "K5"
+  ],
+  "featureImportances": [
+    {
+      "key": "cevresel",
+      "label": "Çevresel",
+      "importance": 27.1
+    },
+    {
+      "key": "aile_sosyal",
+      "label": "Sosyal Ağ",
+      "importance": 25.8
+    },
+    {
+      "key": "sosyo_politik",
+      "label": "Sosyo-Politik",
+      "importance": 18.0
+    },
+    {
+      "key": "psikolojik",
+      "label": "Göç Kaygıları",
+      "importance": 14.9
+    },
+    {
+      "key": "kulturel",
+      "label": "Kültürel-Dini Uyum",
+      "importance": 8.9
+    },
+    {
+      "key": "egitim",
+      "label": "Eğitim ve Gelişim",
+      "importance": 5.2
+    },
+    {
+      "key": "ekonomik_istihdam",
+      "label": "Ekonomik / İstihdam",
+      "importance": 0.0
+    }
+  ],
+  "tree": {
+    "isLeaf": false,
+    "factorKey": "cevresel",
+    "threshold": 68.8,
+    "samples": 712,
+    "left": {
+      "isLeaf": false,
+      "factorKey": "sosyo_politik",
+      "threshold": 57.5,
+      "samples": 301,
+      "left": {
+        "isLeaf": false,
+        "factorKey": "aile_sosyal",
+        "threshold": 52.5,
+        "samples": 95,
+        "left": {
+          "isLeaf": true,
+          "clusterLabel": "K5",
+          "samples": 79,
+          "confidence": 0.873
+        },
+        "right": {
+          "isLeaf": true,
+          "clusterLabel": "K3",
+          "samples": 16,
+          "confidence": 0.375
+        }
+      },
+      "right": {
+        "isLeaf": false,
+        "factorKey": "kulturel",
+        "threshold": 45.8,
+        "samples": 206,
+        "left": {
+          "isLeaf": true,
+          "clusterLabel": "K2",
+          "samples": 35,
+          "confidence": 0.771
+        },
+        "right": {
+          "isLeaf": true,
+          "clusterLabel": "K3",
+          "samples": 171,
+          "confidence": 0.708
+        }
+      }
+    },
+    "right": {
+      "isLeaf": false,
+      "factorKey": "aile_sosyal",
+      "threshold": 47.5,
+      "samples": 411,
+      "left": {
+        "isLeaf": false,
+        "factorKey": "egitim",
+        "threshold": 87.5,
+        "samples": 176,
+        "left": {
+          "isLeaf": true,
+          "clusterLabel": "K4",
+          "samples": 127,
+          "confidence": 0.866
+        },
+        "right": {
+          "isLeaf": true,
+          "clusterLabel": "K1",
+          "samples": 49,
+          "confidence": 0.367
+        }
+      },
+      "right": {
+        "isLeaf": false,
+        "factorKey": "psikolojik",
+        "threshold": 54.2,
+        "samples": 235,
+        "left": {
+          "isLeaf": true,
+          "clusterLabel": "K2",
+          "samples": 89,
+          "confidence": 0.697
+        },
+        "right": {
+          "isLeaf": true,
+          "clusterLabel": "K1",
+          "samples": 146,
+          "confidence": 0.699
+        }
+      }
+    }
+  }
+}

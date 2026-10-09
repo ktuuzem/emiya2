@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-10-02T11:19:13.714851",
+  "algorithm": "KMeans",
+  "nClusters": 5,
+  "randomState": 42,
+  "participantCount": 890,
+  "centroids": {
+    "K4": {
+      "ekonomik_istihdam": 60.1552,
+      "egitim": 72.8437,
+      "aile_sosyal": 29.005,
+      "kulturel": 65.9618,
+      "sosyo_politik": 73.2836,
+      "cevresel": 82.9602,
+      "psikolojik": 57.2555
+    },
+    "K5": {
+      "ekonomik_istihdam": 49.8545,
+      "egitim": 61.2861,
+      "aile_sosyal": 28.3858,
+      "kulturel": 55.1839,
+      "sosyo_politik": 44.8425,
+      "cevresel": 36.2205,
+      "psikolojik": 42.0602
+    },
+    "K2": {
+      "ekonomik_istihdam": 74.529,
+      "egitim": 91.0104,
+      "aile_sosyal": 64.6061,
+      "kulturel": 42.6771,
+      "sosyo_politik": 85.1818,
+      "cevresel": 75.303,
+      "psikolojik": 33.4342
+    },
+    "K3": {
+      "ekonomik_istihdam": 72.5529,
+      "egitim": 81.6819,
+      "aile_sosyal": 52.9955,
+      "kulturel": 71.9971,
+      "sosyo_politik": 75.0225,
+      "cevresel": 55.4617,
+      "psikolojik": 64.5649
+    },
+    "K1": {
+      "ekonomik_istihdam": 84.377,
+      "egitim": 93.7147,
+      "aile_sosyal": 69.5714,
+      "kulturel": 77.3331,
+      "sosyo_politik": 92.4857,
+      "cevresel": 92.0714,
+      "psikolojik": 75.0475
+    }
+  }
+}

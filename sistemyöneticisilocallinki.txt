@@ -1,0 +1,1 @@
+http://localhost:5173/sys-auth-goclab-7f3d21
